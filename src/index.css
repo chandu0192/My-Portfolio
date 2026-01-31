@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* LIGHT / DARK MODE FIXES */
+[data-theme="light"] .card {
+  background-color: white;
+  border-color: #e5e7eb;
+}
+
+[data-theme="light"] .muted-text {
+  color: #6b7280;
+}
+
+[data-theme="dark"] .card {
+  background-color: transparent;
+  border-color: #262626;
+}
+
+[data-theme="dark"] .muted-text {
+  color: #a3a3a3;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
