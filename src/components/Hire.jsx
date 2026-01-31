@@ -106,7 +106,7 @@ export default function Hire() {
                 Close
               </button>
               <a
-                href="tel:+91XXXXXXXXXX"
+                href="tel:+919216533729"
                 className="text-sm underline underline-offset-4 mt-6 block"
               >
                 Prefer a quick call?
