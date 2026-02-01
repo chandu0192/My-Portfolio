@@ -85,14 +85,14 @@ export default function Hire() {
 
             <div className="flex gap-4 mt-8 flex-wrap">
               <a
-                href="https://t.me/USERNAME"
+                href="https://t.me/freelancechitransh"
                 className="px-6 py-3 bg-indigo-600 text-white rounded-xl"
               >
                 Telegram Me
               </a>
 
               <a
-                href="mailto:yourmail@gmail.com"
+                href="sharmachitransh221@gmail.com"
                 className="px-6 py-3 border border-indigo-500 text-indigo-500 rounded-xl hover:bg-indigo-500 hover:text-white transition"
               >
                 Email Me
