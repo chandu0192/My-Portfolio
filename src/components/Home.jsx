@@ -29,6 +29,7 @@ export default function Home({ setActiveSection }) {
       <div className="flex justify-center md:justify-end">
         <div className="flex justify-center md:justify-end">
           <motion.img
+            whileHover={{ scale: 1.05 }}
             src="/myphoto.jpeg"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -42,6 +43,8 @@ export default function Home({ setActiveSection }) {
       shadow-2xl 
       ring-2 
       ring-indigo-500
+      hover:shadow-xl
+      transition
     "
           />
         </div>

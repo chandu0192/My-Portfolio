@@ -71,6 +71,7 @@ export default function Hire() {
         {activeService && (
           <motion.div
             ref={detailsRef}
+            whileHover={{ scale: 1.05 }}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
@@ -79,25 +80,30 @@ export default function Hire() {
               rounded-2xl p-8
               bg-white dark:bg-transparent
               border border-neutral-300 dark:border-neutral-700
+              hover:shadow-xl transition
             "
           >
             <ServiceDetails type={activeService} />
 
             <div className="flex gap-4 mt-8 flex-wrap">
               <a
-                href="https://t.me/freelancechitransh"
-                className="px-6 py-3 bg-indigo-600 text-white rounded-xl"
+                href="https://t.me/freelancechitransh?text=Hi%20I%20saw%20your%20portfolio%20and%20want%20to%20talk"
+                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl"
               >
                 Telegram Me
               </a>
 
               <a
-                href="sharmachitransh221@gmail.com"
+                href="mailto:sharmachitransh221@gmail.com?text=Hi%20I%20saw%20your%20portfolio%20and%20want%20to%20talk"
                 className="px-6 py-3 border border-indigo-500 text-indigo-500 rounded-xl hover:bg-indigo-500 hover:text-white transition"
               >
                 Email Me
               </a>
 
+              <a href="https://wa.me/919216533729?text=Hi%20I%20saw%20your%20portfolio%20and%20want%20to%20talk" target="_blank" rel="noopener noreferrer" className="px-6 py-3 text-white rounded-xl flex items-center gap-2 bg-[#22c55e] hover:bg-[#16a34a]">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="20" height="20" />
+                WhatsApp Me
+              </a>
 
               <button
                 onClick={() => setActiveService(null)}
@@ -123,13 +129,14 @@ export default function Hire() {
 
 function ServiceCard({ title, price, img, onClick }) {
   return (
-    <div
+    <motion.div
       onClick={onClick}
+      whileHover={{ scale: 1.05 }}
       className="
         cursor-pointer overflow-hidden rounded-2xl
         bg-white dark:bg-transparent
         border border-neutral-300 dark:border-neutral-700
-        hover:shadow-lg transition
+        hover:shadow-xl transition
       "
     >
       <img src={img} className="h-40 w-full object-cover" />
@@ -141,7 +148,7 @@ function ServiceCard({ title, price, img, onClick }) {
           Click to see full details
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

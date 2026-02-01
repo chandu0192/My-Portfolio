@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaTelegram, FaTwitter, FaPhone } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaTelegram, FaTwitter, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 export default function Contact() {
@@ -16,11 +16,12 @@ export default function Contact() {
       </p>
 
       <div className="flex gap-8 items-center text-3xl muted-text">
-        <a href="https://github.com/chandu0192" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaGithub /></a>
-        <a href="https://linkedin.com/in/chitransh-sharma-93997a383" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaLinkedin /></a>
+        <a href="https://github.com/chandu0192?text=Hi%20I%20saw%20your%20portfolio%20and%20want%20to%20talk" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaGithub /></a>
+        <a href="https://linkedin.com/in/chitransh-sharma-93997a383?text=Hi%20I%20saw%20your%20portfolio%20and%20want%20to%20talk" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaLinkedin /></a>
         <a href="https://instagram.com/ig_chitransh.2007" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaInstagram /></a>
-        <a href="https://twitter.com/Chitransh8918" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaTwitter /></a>
-        <a href="https://t.me/freelancechitransh" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaTelegram /></a>
+        <a href="https://twitter.com/Chitransh8918?text=Hi%20I%20saw%20your%20portfolio%20and%20want%20to%20talk" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaTwitter /></a>
+        <a href="https://wa.me/919216533729?text=Hi%20I%20saw%20your%20portfolio%20and%20want%20to%20talk" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaWhatsapp /></a>
+        <a href="https://t.me/freelancechitransh?text=Hi%20I%20saw%20your%20portfolio%20and%20want%20to%20talk" target="_blank" className="hover:text-indigo-400 hover:scale-130 transition"><FaTelegram /></a>
       </div>
 
       <div className="flex items-center gap-3 mt-8 muted-text">
