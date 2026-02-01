@@ -3,6 +3,16 @@ import { motion } from "framer-motion";
 export default function Home({ setActiveSection }) {
   return (
     <section className="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-16 items-center">
+
+      {/* 🔥 SEO PRIMARY (hidden, UI unaffected) */}
+      <section className="sr-only">
+        <h1>Chitransh Sharma – Frontend Developer</h1>
+        <p>
+          Chitransh Sharma is a frontend developer specializing in React,
+          JavaScript, HTML, CSS, and Tailwind CSS. This portfolio showcases
+          frontend projects, skills, and experience in modern web development.
+        </p>
+      </section>
       <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
         <motion.h2
           whileHover={{ rotate: -2, scale: 1.03 }}
@@ -20,6 +30,13 @@ export default function Home({ setActiveSection }) {
           BCA Student • Frontend Developer
           Presidency University, Bangalore (2026–2029)
         </motion.p>
+        <p className="text-sm text-neutral-400 max-w-md mb-6">
+          I am Chitransh Sharma, a frontend developer focused on building clean,
+          responsive, and interactive user interfaces using React, JavaScript,
+          and Tailwind CSS. This portfolio highlights my projects, skills,
+          and learning journey as a frontend developer.
+        </p>
+
         <div className="flex gap-4">
           <motion.button whileHover={{ scale: 1.08 }} className="px-6 py-3 bg-indigo-600 text-white rounded-xl" onClick={() => setActiveSection('projects')}>View My Projects</motion.button>
           <button onClick={() => setActiveSection('hire')} className="px-6 py-3 border border-indigo-600 text-indigo-500 rounded-xl hover:bg-indigo-700 hover:text-white transition">Hire Me</button>
