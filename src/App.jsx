@@ -33,6 +33,7 @@ export default function App() {
       />
 
       {/* 🔥 PRIORITY VIEW */}
+      <main id="main-content">
       {activeProject ? (
         <ProjectDetail
           activeProject={activeProject}
@@ -52,6 +53,7 @@ export default function App() {
           <Contact />
         </>
       )}
+      </main>
 
       <Footer setActiveSection={setActiveSection} />
     </div>

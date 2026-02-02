@@ -25,12 +25,12 @@ export default function Home({ setActiveSection }) {
         <motion.p
           whileHover={{ y: -3 }}
           transition={{ duration: 0.3 }}
-          className="muted-text mb-6 cursor-pointer"
+          className="text-neutral-700 dark:text-neutral-300 mb-6 cursor-pointer"
         >
           BCA Student • Frontend Developer
           Presidency University, Bangalore (2026–2029)
         </motion.p>
-        <p className="text-sm text-neutral-400 max-w-md mb-6">
+        <p className="text-sm text-neutral-700 dark:text-neutral-300 max-w-md mb-6">
           I am Chitransh Sharma, a frontend developer focused on building clean,
           responsive, and interactive user interfaces using React, JavaScript,
           and Tailwind CSS. This portfolio highlights my projects, skills,
@@ -38,8 +38,8 @@ export default function Home({ setActiveSection }) {
         </p>
 
         <div className="flex gap-4">
-          <motion.button whileHover={{ scale: 1.08 }} className="px-6 py-3 bg-indigo-600 text-white rounded-xl" onClick={() => setActiveSection('projects')}>View My Projects</motion.button>
-          <button onClick={() => setActiveSection('hire')} className="px-6 py-3 border border-indigo-600 text-indigo-500 rounded-xl hover:bg-indigo-700 hover:text-white transition">Hire Me</button>
+          <motion.button whileHover={{ scale: 1.08 }} className="px-6 py-3 bg-indigo-600 text-white rounded-xl" onClick={() => setActiveSection('projects')} aria-label="View my projects">View My Projects</motion.button>
+          <button onClick={() => setActiveSection('hire')} className="px-6 py-3 border border-indigo-600 text-indigo-500 rounded-xl hover:bg-indigo-700 hover:text-white transition" aria-label="Open hire section">Hire Me</button>
         </div>
       </motion.div>
 
@@ -48,6 +48,7 @@ export default function Home({ setActiveSection }) {
           <motion.img
             whileHover={{ scale: 1.05 }}
             src="/myphoto.jpeg"
+            alt="Portrait of Chitransh Sharma"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
@@ -64,6 +65,7 @@ export default function Home({ setActiveSection }) {
       transition
     "
           />
+
         </div>
 
       </div>
