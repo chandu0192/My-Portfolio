@@ -28,7 +28,7 @@ export default function Hire() {
     <section className="max-w-6xl mx-auto px-6 py-24">
       <h2 className="text-4xl font-bold mb-6">Hire Me</h2>
 
-      <p className="text-neutral-700 dark:text-neutral-300 max-w-3xl mb-12">
+      <p className="text-neutral-500 max-w-3xl mb-12">
         I am available for frontend freelance work. I specialize in
         building clean, responsive, and modern user interfaces using
         React and Tailwind CSS.
@@ -87,7 +87,7 @@ export default function Hire() {
 
             <div className="flex gap-4 mt-8 flex-wrap">
               <a
-                href="https://t.me/freelancechitransh?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://chitranshdev.in%0Aand%20want%20to%20talk"
+                href="https://t.me/freelancechitransh?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://www.chitranshdev.in%0Aand%20want%20to%20talk"
                 className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl"
                 aria-label="Contact via Telegram"
               >
@@ -95,14 +95,14 @@ export default function Hire() {
               </a>
 
               <a
-                href="mailto:sharmachitransh221@gmail.com?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://chitranshdev.in%0Aand%20want%20to%20talk"
+                href="mailto:sharmachitransh221@gmail.com?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://www.chitranshdev.in%0Aand%20want%20to%20talk"
                 className="px-6 py-3 border border-indigo-500 text-indigo-500 rounded-xl hover:bg-indigo-500 hover:text-white transition"
                 aria-label="Send email"
               >
                 Email Me
               </a>
 
-              <a href="https://wa.me/919216533729?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://chitranshdev.in%0Aand%20want%20to%20talk" target="_blank" rel="noopener noreferrer" className="px-6 py-3 text-white rounded-xl flex items-center gap-2 bg-[#22c55e] hover:bg-[#16a34a]" aria-label="Contact on WhatsApp">
+              <a href="https://wa.me/919216533729?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://www.chitranshdev.in%0Aand%20want%20to%20talk" target="_blank" rel="noopener noreferrer" className="px-6 py-3 text-white rounded-xl flex items-center gap-2 bg-[#22c55e] hover:bg-[#16a34a]" aria-label="Contact on WhatsApp">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="20" height="20" />
                 WhatsApp Me
               </a>
@@ -158,7 +158,7 @@ function ServiceCard({ title, price, img, onClick }) {
       <div className="p-6">
         <h3 className="text-xl font-semibold">{title}</h3>
         <p className="text-indigo-500">{price}</p>
-        <p className="text-sm text-neutral-700 dark:text-neutral-300 mt-1">
+        <p className="text-sm text-neutral-500 mt-1">
           Click to see full details
         </p>
       </div>
@@ -170,7 +170,7 @@ function ServiceCard({ title, price, img, onClick }) {
 
 
 function ServiceDetails({ type }) {
-  const base = "space-y-2 text-neutral-700 dark:text-neutral-300";
+  const base = "space-y-2 text-neutral-500";
 
   if (type === "landing")
     return (

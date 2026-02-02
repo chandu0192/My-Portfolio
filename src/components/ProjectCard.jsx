@@ -20,7 +20,7 @@ export default function ProjectCard({ title, img, desc, onClick }) {
         <img src={img} alt={title} className="w-full h-40 object-cover rounded-md mb-4" />
       )}
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-neutral-700 dark:text-neutral-300 text-sm">{desc ?? 'Modern frontend UI project built using React.'}</p>
+      <p className="text-neutral-500 text-sm">{desc ?? 'Modern frontend UI project built using React.'}</p>
     </motion.div>
   );
 }

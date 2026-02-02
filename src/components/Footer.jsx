@@ -6,7 +6,7 @@ export default function Footer({ setActiveSection }) {
         {/* BRAND */}
         <div>
           <h3 className="text-xl font-bold mb-3">Chitransh Sharma</h3>
-          <p className="text-neutral-700 dark:text-neutral-300 text-sm leading-relaxed">
+          <p className="text-neutral-500 text-sm leading-relaxed">
             Frontend Developer & New Freelancer building clean,
             responsive, and modern web interfaces using React
             and Tailwind CSS.
@@ -16,9 +16,9 @@ export default function Footer({ setActiveSection }) {
         {/* QUICK LINKS */}
         <div>
           <h4 className="font-semibold mb-3">Quick Links</h4>
-          <ul className="space-y-2 text-neutral-700 dark:text-neutral-300 text-sm">
+          <ul className="space-y-2 text-neutral-500 text-sm">
             <li
-              className="hover:text-white cursor-pointer"
+              className="hover:text-indigo-400 cursor-pointer"
               onClick={() => setActiveSection("home")}
               role="button"
               tabIndex={0}
@@ -28,7 +28,7 @@ export default function Footer({ setActiveSection }) {
               Home
             </li>
             <li
-              className="hover:text-white cursor-pointer"
+              className="hover:text-indigo-400 cursor-pointer"
               onClick={() => setActiveSection("projects")}
               role="button"
               tabIndex={0}
@@ -38,7 +38,7 @@ export default function Footer({ setActiveSection }) {
               Projects
             </li>
             <li
-              className="hover:text-white cursor-pointer"
+              className="hover:text-indigo-400 cursor-pointer"
               onClick={() => setActiveSection("hire")}
               role="button"
               tabIndex={0}
@@ -53,8 +53,8 @@ export default function Footer({ setActiveSection }) {
         {/* CONTACT INFO */}
         <div>
           <h4 className="font-semibold mb-3">Contact</h4>
-          <p className="text-neutral-700 dark:text-neutral-300 text-sm mb-2">📍 Bangalore, India</p>
-          <p className="text-neutral-700 dark:text-neutral-300 text-sm">📞 +91 9216533729</p>
+          <p className="text-neutral-500 text-sm mb-2">📍 Bangalore, India</p>
+          <p className="text-neutral-500 text-sm">📞 +91 9216533729</p>
         </div>
       </div>
 

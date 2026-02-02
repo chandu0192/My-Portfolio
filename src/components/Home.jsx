@@ -25,12 +25,12 @@ export default function Home({ setActiveSection }) {
         <motion.p
           whileHover={{ y: -3 }}
           transition={{ duration: 0.3 }}
-          className="text-neutral-700 dark:text-neutral-300 mb-6 cursor-pointer"
+          className=" mb-6 cursor-pointer"
         >
           BCA Student • Frontend Developer
           Presidency University, Bangalore (2026–2029)
         </motion.p>
-        <p className="text-sm text-neutral-700 dark:text-neutral-300 max-w-md mb-6">
+        <p className="text-sm  max-w-md mb-6">
           I am Chitransh Sharma, a frontend developer focused on building clean,
           responsive, and interactive user interfaces using React, JavaScript,
           and Tailwind CSS. This portfolio highlights my projects, skills,
