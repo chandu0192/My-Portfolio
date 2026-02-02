@@ -87,20 +87,20 @@ export default function Hire() {
 
             <div className="flex gap-4 mt-8 flex-wrap">
               <a
-                href="https://t.me/freelancechitransh?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://chitransh-web.vercel.app%0Aand%20want%20to%20talk"
+                href="https://t.me/freelancechitransh?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://chitranshdev.in%0Aand%20want%20to%20talk"
                 className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl"
               >
                 Telegram Me
               </a>
 
               <a
-                href="mailto:sharmachitransh221@gmail.com?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://chitransh-web.vercel.app%0Aand%20want%20to%20talk"
+                href="mailto:sharmachitransh221@gmail.com?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://chitranshdev.in%0Aand%20want%20to%20talk"
                 className="px-6 py-3 border border-indigo-500 text-indigo-500 rounded-xl hover:bg-indigo-500 hover:text-white transition"
               >
                 Email Me
               </a>
 
-              <a href="https://wa.me/919216533729?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://chitransh-web.vercel.app%0Aand%20want%20to%20talk" target="_blank" rel="noopener noreferrer" className="px-6 py-3 text-white rounded-xl flex items-center gap-2 bg-[#22c55e] hover:bg-[#16a34a]">
+              <a href="https://wa.me/919216533729?text=Hi%20I%20saw%20your%20portfolio%0Ahttps://chitranshdev.in%0Aand%20want%20to%20talk" target="_blank" rel="noopener noreferrer" className="px-6 py-3 text-white rounded-xl flex items-center gap-2 bg-[#22c55e] hover:bg-[#16a34a]">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="20" height="20" />
                 WhatsApp Me
               </a>
