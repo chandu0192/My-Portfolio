@@ -59,7 +59,7 @@ export default function Footer({ setActiveSection }) {
       </div>
 
       {/* BOTTOM BAR */}
-      <div className="border-t border-neutral-800 py-4 text-center text-xs text-neutral-600 dark:text-neutral-300">
+      <div className="border-t border-neutral-800 py-4 text-center text-xs text-neutral-500">
         © {new Date().getFullYear()} Chitransh Sharma. All rights reserved.
       </div>
     </footer>
