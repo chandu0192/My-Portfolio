@@ -9,7 +9,7 @@ export default function Contact() {
       transition={{ duration: 0.5 }}
       className="max-w-6xl mx-auto px-6 py-24"
     >
-      <h2 className="text-4xl font-bold mb-6">Contact me</h2>
+      <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
 
       <p className="text-neutral-500 mb-10 max-w-2xl">
         Want to work together or hire me for a frontend project? You can reach out to me directly.
